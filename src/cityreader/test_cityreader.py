@@ -1,6 +1,10 @@
 import unittest
 from cityreader import City, cityreader
 
+# The code styling in this file does not adhere to pep8
+# Since I did not write the code I wont venture to fix it
+# right now
+
 def check_city(inp, exp):
     if inp.name != exp.name:
       return False
